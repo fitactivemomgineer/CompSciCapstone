@@ -1,14 +1,3 @@
-<?php
-// Initialize the session
-session_start();
-
-// If session variable is not set it will redirect to login page
-if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  header("location: login.php");
-  exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,9 +29,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
       <li>
         <a href="nutrition.html">Nutrition</a>
       </li>
-      <li>
-        <a href="aboutme.html">About Me</a>
-      </li>
+    <li>
+      <a href="aboutme.html">About Me</a>
+    </li>
   </ul>
     <div class="jumbotron">
       <h2>
@@ -54,7 +43,6 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
          Because let's face it, things just don't move the same after having a baby!
       <p>
         <a class="btn btn-primary btn-large" href="aboutme.html">Learn more</a>
-        <img src="weightpic.jpg" class="img-circle" alt="Sunrise" width="204" height="136">
       </p>
     </div>
     <p><a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a></p>
