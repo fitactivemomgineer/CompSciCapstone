@@ -54,7 +54,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
          Because let's face it, things just don't move the same after having a baby!
       <p>
         <a class="btn btn-primary btn-large" href="aboutme.html">Learn more</a>
-        <img src="weightpic.jpg" class="img-circle" alt="Sunrise" width="204" height="136">
+        <img src="MomandCamMankato.jpg" class="img-rounded" alt="Christine and Cameron Hodges over looking waterfall" width="504" height="436">
       </p>
     </div>
     <p><a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a></p>
