@@ -28,22 +28,24 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
       <div class="row">
         <div class="col-md-12">
           <ul class="nav nav-tabs">
-      <li>
-        <a href="runners.html">Runners</a>
-      </li>
-      <li>
-        <a href="bikers.html">Bikers</a>
-      </li>
-      <li>
-        <a href="apparel.html">Apparel</a>
-      </li>
-      <li>
-        <a href="nutrition.html">Nutrition</a>
-      </li>
-      <li>
-        <a href="aboutme.html">About Me</a>
-      </li>
-  </ul>
+            <li>
+              <a href="welcome.php">Home</a>
+            </li>
+            <li>
+              <a href="runners.html">Runners</a>
+            </li>
+            <li>
+              <a href="bikers.html">Bikers</a>
+            </li>
+            <li>
+              <a href="apparel.html">Apparel</a>
+            </li>
+            <li>
+              <a href="nutrition.html">Nutrition</a>
+            </li>
+            <li>
+              <a href="aboutme.html">About Me</a>
+            </li>
     <div class="jumbotron">
       <h2>
         Meet Christine, our TUMM community leader!
